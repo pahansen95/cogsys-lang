@@ -1,2 +1,3 @@
-# cogsys-lang
+# CogSL
+
 Cognitive Systems Language
