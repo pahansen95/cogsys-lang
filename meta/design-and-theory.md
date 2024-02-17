@@ -63,3 +63,25 @@ More formally:
 - A `protocol` declares a set of semantics & capabilities such that any `type` having these semantics & capabilities, irrespective of implementation, can be classified as enacting the `protocol`.
 - Semantics deal with the meaning of data & how this meaning is contextualized within an intelligent entity's understanding of a system. Semantics include implied knowledge, logical rules & descriptive boundaries.
 - Capabilities deal with the actions & abilities that can be performed on, by or with the data contextualized to its semantics within the system.
+
+### The Second Principle
+
+> TODO: Need to think through & expand on this more
+
+The second principle describes a common approach to articulating a cognitive model using a Domain Specific Language (DSL) based on Natural Language (NL) Paradigms.
+
+Plainly:
+
+- Using a DSL-NL simplifies the process of articulating the Cognitive Model & ensures a common vernacular.
+
+  - Natural language (NL) is a capability intelligent entities use to externalize knowledge; the process of articulating comprehension & implicit knowledge is already captured in the prose of natural language. However, in its native forms (such as English), it is generalized which gives rise to ambiguity & design complexity.
+
+  - Crafting a DSL based on NL simplifies articulating cognitive models with precision & accuracy. Likewise, development of the language itself serves as a process to refine understanding, narrow scope & materialize implicit knowledge.
+
+- The DSL-NL should be fully deterministic to allow repeatable parsing while ensuring ambiguity is minimized (ideally eliminated). Ambiguity is a strong indicator that a cognitive model is incomplete. If a concept cannot be plainly articulated then it is likely that a concept is not mappable to the computational system.
+- The granularity & verbosity of as DSL-NL is a tradeoff between time & effort. The depth, precision & accuracy of the DSL-NL should minimally meet the requirements necessary for actionability. These requirements are relative & subjective to the intelligent entities reading & writing the DSL-NL & mapping it to the computational system.
+- Immediate or excessive generalization is an indicator that a cognitive model is incomplete. Likewise attempting to structure concepts into a hierarchy can indicate a gap in implied knowledge. Usage & application of generalization techniques is neither encouraged or discouraged but it's use should be heavily scrutinized for applicability.
+
+### The Third Principle
+
+> Do I have one?
