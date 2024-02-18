@@ -84,4 +84,20 @@ Plainly:
 
 ### The Third Principle
 
-> Do I have one?
+> TODO: Need to think through & expand on this more
+
+The third layer details the scopes & strengths of the three layers.
+
+Plainly:
+
+- The Cognitive Model Layer captures the "what" , "why" & "how" of cognitive systems qualifying the semantics & capabilities.
+  - What constitutes the cognitive system & why?
+  - How do the constituents interact with one another?
+- The Computational Model Layer captures the "what" , "why" & "how" of computational systems: various paradigms & frameworks for efficiently instructing a computer.
+  - What computational capabilities does a computer have? How are they applied?
+  - How do we represent mathematical data structures (like a graph) into a computational framework? Why?
+- The Representational Mapping Layer captures the "how" of computing a cognitive model. While no new types or protocols are introduced in this layer, imperative work is introduced to coerce cognitive  ideas into a composite of literal computational processes.
+  - A Basic example could be pattern extraction. A Cognitive Model would imply; `match the pattern foo in the file` (or even declaring how to search for the pattern) while a computational model would deal with the iteration & indexing of the pattern `foo`, the loading & management of the file's content into a memory buffer, etc...
+  - Changes in the evolution of computational capabilities & cognitive systems reflect in the differential between commits of the RML. This allows for traceability in changing paradigms, implicit knowledge & growing capabilities.
+  - An inability or high difficulty in specifying the imperative work to map between system spaces quickly makes it apparent that either or both system models are lacking & need to be iterated.
+  - Optimization of implementation is isolated from the cognitive models; by optimizing the computational layer any project sharing this layer can directly benefit after minimal rework. When the computational systems are tightly integrated w/ the cognitive models (such as in traditional high level programming models), then major refactoring is required to leverage optimizations.
