@@ -38,7 +38,7 @@ First, the major constituent procedures are:
 - Develop the system model; articulate the system you are modeling & the desired side-effects of the model when work is applied.
 - Concurrently develop the software interface to the computational system or otherwise reuse an existing computational system.
 - Develop a computational representation of the system model by mapping the system model onto the computational system.
-  - If the system model cannot be mapped then iterate the framework.
+  - If the system model cannot be mapped then iterate from the start of the framework.
   - Otherwise the system model is ready to be executed.
 
 The general flow of these procedures follows:
@@ -67,7 +67,7 @@ More formally:
 - A `type` is an implementation of semantics & capabilities applied to data.
 
 - A `protocol` declares a set of semantics & capabilities such that any `type` having these semantics & capabilities, irrespective of implementation, can be classified as enacting the `protocol`.
-- Semantics deal with the meaning of data & how this meaning is contextualized within an intelligent entity's understanding of a system. Semantics include implied knowledge, logical rules & descriptive boundaries.
+- Semantics deal with the meaning of data & how this meaning is contextualized within an intelligent agent's understanding of a system. Semantics include implied knowledge, logical rules & descriptive boundaries.
 - Capabilities deal with the actions & abilities that can be performed on, by or with the data contextualized to its semantics within the system.
 
 ### The Second Principle
@@ -104,8 +104,8 @@ Plainly:
 - The Computational System Procedure captures the "what" , "why" & "how" of computation: various paradigms & frameworks for efficiently instructing a computer.
   - What computational capabilities does a computer or a network of computers have? How are they applied?
   - How do we represent mathematical data structures (like a graph) into a computational framework? Why?
-- The Representational Mapping Procedure captures the "how" of computing a system model. While no new types or protocols are introduced in this procedure, imperative work is introduced to coerce system types into a composite of computational types.
+- The Representational Mapping Procedure captures the "how" of computing a system model. While no new types or protocols are introduced in this procedure, imperative work is introduced to coerce system model `types` into a composite of computational `types`.
   - A Basic example could be pattern extraction. A system model could imply `match the pattern foo from the input` while a computational system would deal with the iteration & indexing of a character buffer, the loading & management of the file's content into memory & how pattern matching is conducted.
   - Changes in the evolution of computational capabilities & modeled systems reflect in the differential between commits of the Representational Mapping source code. This allows for traceability in changing paradigms, implicit knowledge & growing capabilities.
   - An inability or high difficulty in implementing the imperative work to map from system space to computational space quickly makes it apparent that there is a gap in some component in the overall solution.
-  - Computational optimization is decoupled from the system models allowing for faster refactoring to leverage expanded computational capabilities. When the computational system is tightly integrated w/ the system model (such as in traditional programming frameworks), then major refactoring is required to optimize unless a highly skilled intelligent agent developed the solution to with this in mind. I assert the later is an exception & not the case.
+  - Computational optimization is decoupled from the system models allowing for faster refactoring to leverage expanded computational capabilities. When the computational system is tightly integrated w/ the system model (such as in traditional programming frameworks), then major refactoring is required to optimize unless a highly skilled intelligent agent developed the solution with this in mind; I assert the later is an exception & not the case.
