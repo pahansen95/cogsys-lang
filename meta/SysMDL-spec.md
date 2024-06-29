@@ -67,3 +67,5 @@ First we describe the core design principles of SysMDL:
 - SysMDL introduces the concept of `model types` & `model protocols` which are lexical vessels for capturing functionality & context of concepts & models.
 
 Second we describe the formal definition of the SysMDL Grammar & Syntax:
+
+> TODO
